@@ -1,0 +1,26 @@
+.contacts__list {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.contacts__item {
+    padding: 0 10px;
+    background-color: rgba(218, 219, 219, 0.619);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__delete {
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: none;
+    cursor: pointer;
+}
